@@ -1,0 +1,198 @@
+body{
+  background: blue;
+}
+.rezume{
+  width: 800px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  margin: 25px auto;
+}
+.left{
+  background: rgb(37, 31, 31);
+  width: 250px;
+  padding: 0 20px;
+}
+
+.left .img_holder{
+  text-align: center;
+  padding: 20px 0;
+  }
+
+  .myimg{
+    width: 220px;
+    border-radius: 30px;
+  }
+  .pb{
+    padding-bottom: 20px;
+  }
+  .title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform:uppercase;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-bottom: 0px;
+    color: rgb(11, 77, 153);
+  }
+
+ .contact .liwrap{
+   display: flex;
+   align-items: center;
+   width: 100%;
+ }
+
+ .contact .liwrap .contimg{
+   margin: 10px;
+   border-radius: 30px;
+ }
+
+ .contact .liwrap .text{
+   text-transform: uppercase;
+   color: #fff;
+ }
+
+ .skills ul,
+ .hobbies ul{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-between;
+  
+   
+ }
+ 
+ .skills .liwrap,
+ .hobbies .liwrap{
+  
+  display: flex;
+  flex-direction:column; 
+ 
+ }
+
+ .hobbyimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+ }
+
+ .skillsimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+ }
+
+ .skills .liwrap .text{
+  text-transform: uppercase;
+  color: #fff;
+}
+.hobbies .liwrap .text{
+  text-transform: uppercase;
+  color: #fff;
+}  
+.right{
+  width: calc(100% - 250px); 
+  color: mediumblue;
+  padding: 10px;
+  text-align: center;
+  padding-top: 0px;
+  
+}
+.nom{
+  margin: 5px;
+  font-size: 24px;
+}
+h2{
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0px;
+}
+label{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #da0b0b;
+  margin: 0px;
+}
+
+h3{
+  font-size: 24px;
+  text-transform: uppercase;
+  
+}
+.language{
+ 
+  background-color: rgb(51, 48, 48);
+  margin-top:20px;
+  padding: 10px;
+  border-radius: 40px 0;
+  border: 1px solid;
+}
+.russa{
+  width: 200px;
+  height: 100px;
+  border: 2px groove;
+  margin: 10px;
+}
+.english{
+  width: 200px;
+  height: 100px;
+  border: 2px groove;
+  margin: 10px;
+  
+}
+.lang{
+  display: flex;
+
+}
+h4{
+  font-size: 24px;
+  margin: 10px;
+}
+h5{
+  font-size: 25px;
+  margin: 5px;
+}
+.english:hover{
+  background-color: rgb(126, 202, 202);
+}
+.russa:hover{
+  background-color: rgb(126, 202, 202);
+}
+.pick{
+ width: 470px;
+ height: 200px;
+ background-color: rgb(43, 40, 40); 
+ border: 2px solid;
+ margin-top: 25px;
+ margin-bottom: 10px;
+ border-radius: 0 50px;
+ padding-top: 30px;
+}
+a{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(255, 249, 249);
+  margin-bottom: 10px;
+  line-height: 30px;
+  
+}
+#sait{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(255, 254, 254);
+  font-size: 24px;
+  
+}
+a:hover{
+  color: #119edf;
+}
+.clas1{
+  margin: 15px;
+}
+#sait1{
+  
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.link {
+  line-height: 50px;
+}
